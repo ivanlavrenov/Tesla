@@ -626,13 +626,13 @@ h3{
 }
 
 .a2013{
-   	width:803px;	 
+   	width:858px;	 
    	height:550px;
    	top: 991px;
    }
 
 .front{
-	left: 795px;
+	left: 850px;
    	width: 500px;
    	height: 800px;
    }
@@ -670,7 +670,7 @@ h3{
 
 .front2{
 	width: 500px;
-   	height: 800px;
+   	height: 820px;
 }
 
 h4{
@@ -693,19 +693,19 @@ a{
 	width:40px; 
 	height:45px;
 	top: 680px;
-	left: 60px;
+	left: 90px;
 }
 
 h6{
-	font-size: 32px;
-	left: 120px;
-	bottom: 0px;
+	font-size: 30px;
+	left: 160px;
+	bottom: 3px;
 }
 
 .save{
 	font-size: 16px;
-	left: 120px;
-	bottom: 48px;
+	left: 160px;
+	bottom: 50px;
 }
 
 .m{
@@ -720,19 +720,19 @@ h6{
 
 .star{
 	left: 300px;
-	bottom: 340px;
+	bottom: 360px;
 }
 
 
 .star2{
 	left: 300px;
-	bottom: 300px;
+	bottom: 320px;
 }
 
 
 .star3{
 	left: 300px;
-	bottom: 255px;
+	bottom: 275px;
 }
 
 
@@ -748,7 +748,7 @@ h6{
 }
 
 .bord3{
-	top: 673px;
+	top: 750px;
 	left: 290px;
 }
 
@@ -763,7 +763,13 @@ h6{
 	left: 500px;
 	top: 1680px;
 	width: 751px;
-	height: 150px;}
+	height: 150px;
+}
+
+.group2{
+	top: 775px;
+	left: 70px;
+}
 
 
 @media screen and (max-width: 1000px){
