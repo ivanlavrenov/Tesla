@@ -1,9 +1,9 @@
 @font-face{
-	font-family: Montserrat;
-	src:url("./16785.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
+	font-family: "Montserrat";
+	src:url('Montserrat-Black');
 }
+
+
 
 .model{
 	position: relative;
@@ -97,10 +97,6 @@ p {
 	font-size: 15px;
 	line-height: 18px;
 	margin-top:;
-}
-
-hr{
-	width: 20000px;
 }
 
 
@@ -365,7 +361,7 @@ h3{
 
 .a2013{
 	position: absolute;
-	top: 1095px;
+	top: 1085px;
 	width: 1228px;
 	height: 790px;
 	left: 0;
@@ -639,7 +635,7 @@ h3{
 .a2013{
    	width:858px;	 
    	height:550px;
-   	top: 991px;
+   	top: 981px;
    }
 
 .front{
