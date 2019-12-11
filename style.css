@@ -1,3 +1,8 @@
+@font-face{
+	font-family: Montserrat;
+	src:url(./16785.ttf);
+}
+
 .model{
 	position: relative;
 	margin-left:50px; 
