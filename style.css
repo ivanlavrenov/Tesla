@@ -1,4 +1,5 @@
 .model{
+	position: relative;
 	margin-left:50px; 
 	margin-top: 0;
 	font-family: Montserrat;
@@ -38,6 +39,7 @@
 
 
 .menu{
+	position: relative;
 	display: flex;
 	justify-content: flex-end;
 	font-family: Montserrat;
@@ -63,7 +65,7 @@
 
 .text{
 	display: block;
-	margin-top: 60px;
+	margin-top: 30px;
 }
 
 
@@ -95,7 +97,7 @@ p {
 	position: absolute;
 	display: flex;
 	left: 10%;
-	top: 15%;
+	top: 20%;
 }
 
 
@@ -165,13 +167,24 @@ span{
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 16px;
 	text-align: center;
 	text-transform: uppercase;	
-	width: 89px;
+	width: 100px;
 	height: 18px;
 }
+
+
+  .tx:before {
+    vertical-align: middle;
+    font-style: normal;
+    }
+  .tx:before {
+    content: url(./img/steering-wheel.png);
+    margin-right: 12px;
+    }
+
 
 
 .wh{
@@ -588,7 +601,7 @@ p{
 
 .menu{
   	font-size: 15px;
-  	margin-top: -50px;
+  	margin-top: -10px;
   }
 
 .logo{
@@ -601,12 +614,21 @@ footer{
    }
 
 .wh{
-   	left: 665px;
+   	left: 650px;
    }
 
+
+
+
+
+h3{
+	top: 820px;
+}
+
 .a2013{
-   	width:300px;	 
-   	height:200px;
+   	width:803px;	 
+   	height:550px;
+   	top: 991px;
    }
 
 .front{
@@ -638,12 +660,110 @@ footer{
 	top: 730px;
 }
 
+.bord2{
+	top: 705px;
+	left: 250px;
+}
 
 
 
 
+.front2{
+	width: 500px;
+   	height: 800px;
+}
+
+h4{
+	font-size: 35.5px;
+}
+
+.text3{
+	font-size: 15px;
+}
+
+h5{
+	font-size: 32px;
+}
+
+a{
+	font-size: 17px;
+}
+
+.shield{
+	width:40px; 
+	height:45px;
+	top: 680px;
+	left: 60px;
+}
+
+h6{
+	font-size: 32px;
+	left: 120px;
+	bottom: 0px;
+}
+
+.save{
+	font-size: 16px;
+	left: 120px;
+	bottom: 48px;
+}
+
+.m{
+	display: none;
+}
+
+.star1{
+	margin-left: 6px;
+	width: 18px;
+}
 
 
+.star{
+	left: 300px;
+	bottom: 340px;
+}
+
+
+.star2{
+	left: 300px;
+	bottom: 300px;
+}
+
+
+.star3{
+	left: 300px;
+	bottom: 255px;
+}
+
+
+.star4{
+	left: 250px;
+	bottom: 10px;
+}
+
+
+.star5{
+	left: 250px;
+	bottom: 5px;
+}
+
+.bord3{
+	top: 673px;
+	left: 290px;
+}
+
+.car2{
+	width: 850px;
+  	height: 450px;
+  	top: 1750px;
+  	left: 400px;
+}
+
+.models{
+	left: 500px;
+	top: 1680px;
+	width: 751px;
+	height: 150px;}
 
 
 @media screen and (max-width: 1000px){
