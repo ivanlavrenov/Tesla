@@ -354,7 +354,7 @@ h3{
 	font-size: 70px;
 	line-height: 85px;
 	color: #E51937;
-	top: 950px;
+	top: 945px;
 	left: 100px;
 }
 
@@ -362,7 +362,7 @@ h3{
 .a2013{
 	position: absolute;
 	top: 1085px;
-	width: 1228px;
+	width: 1227px;
 	height: 790px;
 	left: 0;
 }
@@ -779,5 +779,252 @@ h6{
 }
 
 
+
+
 @media screen and (max-width: 1000px){
+	 .car{ 
+  	width: 900px;
+  	height: 400px;
+  	top: 120px;
+  	left: 50px;
+  } 
+
+h1{
+  	margin-top: -45px;
+  	font-size: 60px;
+  }
+
+p{
+  	font-size: 14px;
+  }
+
+.m{
+  	font-size: 15px;
+  	margin-top: 5px;
+  }
+
+.a{
+  	margin-top: 17px;
+  }
+
+.menu{
+  	font-size: 15px;
+  	margin-top: -10px;
+  }
+
+.logo{
+	width: 120px;
+	height: 40px;
+  	margin-left: 25px;
+  	margin-top: -10px;
+  }
+
+.menu-icon{
+	width: 20px;
+}
+
+footer{
+   	margin-top: -115px;
+   }
+
+.wh{
+   	left: 650px;
+   }
+
+.tx{
+	font-size: 13px;
+}   
+
+.speed-icon{
+	height: 40px;
+	width: 100px;
+	margin-left: 60px;
+	margin-top: 5px;
+}
+
+.road-icon{
+	height: 40px;
+	width: 100px;
+	margin-top: 5px;
+}
+
+.vector{
+	width: 30px;
+}
+
+
+
+h2{
+	font-size:22px;	
+}
+
+h3{
+	top: 750px;
+	font-size: 50px;
+}
+
+.text2{
+	font-size: 12px;
+}
+
+.a2013{
+   	width:602px;	 
+   	height:440px;
+   	top: 982px;
+   }
+
+.front{
+	top: 550px;
+	left: 594px;
+   	width: 350px;
+   	height: 700px;
+   }
+
+.display{
+   	width: 95px;
+   	height:35px;
+   	margin-top: 100px; 
+   }
+
+.wifi{
+   	width: 135px;
+   	height:35px;
+   	margin-top: 40px; 
+	}
+   	
+.bag{
+   	width: 100px;
+   	height:35px;
+   	margin-top: -18px;
+
+}
+
+.group{
+	left: 30px;
+	top: 630px;
+	width: 120px;
+}
+
+.bord2{
+	top: 605px;
+	left: 150px;
+	width: 120px;
+	height: 40px;
+	font-size: 12px;
+}
+
+
+
+
+.front2{
+	width: 350px;
+   	height: 700px;
+   	top: 520px;
+}
+
+h4{
+	font-size: 22px;
+}
+
+.text3{
+	font-size: 12px;
+}
+
+h5{
+	font-size: 22px;
+	margin-bottom: 0px;
+}
+
+
+a{
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.shield{
+	display: none;
+	width:30px; 
+	height:35px;
+	top: 598px;
+	left: 100px;
+}
+
+h6{
+	display: none;
+	font-size: 20px;
+	left: 160px;
+	bottom: 13px;
+}
+
+.save{
+	display: none;
+	font-size: 13px;
+	left: 160px;
+	bottom: 46px;
+}
+
+.m{
+	display: none;
+}
+
+.star1{
+	margin-left: 6px;
+	width: 13px;
+}
+
+
+.star{
+	left: 200px;
+	bottom: 260px;
+}
+
+
+.star2{
+	left: 200px;
+	bottom: 225px;
+}
+
+
+.star3{
+	left: 200px;
+	bottom: 187px;
+}
+
+
+.star4{
+	left: 150px;
+	bottom: 5px;
+}
+
+
+.star5{
+	left: 150px;
+	bottom: 5px;
+}
+
+.bord3{
+	top: 612px;
+	left: 190px;
+	width: 140px;
+}
+
+.car2{
+	width: 650px;
+  	height: 350px;
+  	top: 1650px;
+  	left: 280px;
+}
+
+.models{
+	left: 400px;
+	top: 1580px;
+	width: 521px;
+	height: 100px;
+}
+
+.group2{
+	top: 635px;
+	width: 150px;
+	left: 30px;
+}
 @media screen and (max-width: 640px){
