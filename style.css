@@ -129,8 +129,7 @@ footer{
 
 
 .speed-icon{
-	width: 46px;
-	height: 34.13px;
+
 }
 
 
@@ -706,13 +705,13 @@ a{
 h6{
 	font-size: 30px;
 	left: 160px;
-	bottom: 3px;
+	bottom: 25px;
 }
 
 .save{
 	font-size: 16px;
 	left: 160px;
-	bottom: 50px;
+	bottom: 70px;
 }
 
 .m{
