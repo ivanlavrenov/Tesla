@@ -3,12 +3,14 @@
 	src:url(./Montserrat-Medium.ttf);
 }
 
-
+*{
+	font-style: normal;
+	font-weight: 600;
+}
 
 .model{
 	position: relative;
 	margin-left:50px; 
-	margin-top: 0;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 600;
@@ -26,9 +28,17 @@
 
 
 .m{
+	z-index: 1;
+	position: relative;
 	margin-right: 30px;
-	text-decoration: none;
+	cursor: pointer;
 }
+
+.m:hover::before{
+	content: url(./img/vec.png);
+	position: absolute;
+	top: 6px;
+	}
 
 
 .logo{
@@ -39,10 +49,6 @@
     margin-left: 5px;
 }
 
-
-.a{
-	cursor: pointer;
-}
 
 
 .menu{
@@ -55,17 +61,26 @@
 	font-size: 15px;
 	word-spacing: 50px;
 	margin-right: 50px;
-	margin-top: -44px;
+	margin-top: -46px;
 	color: #000000;
 }
 
 
 .a{
+	cursor: pointer;
 	margin-right: 22px;
 }
 
 
+.a:hover::before{
+	content: url(./img/vec.png);
+	position: absolute;
+	top: 20px;
+}
+
+
 .menu-icon{
+	display: none;
 	margin: 20px;
 }
 
@@ -102,9 +117,12 @@ p {
 
 .car{
 	position: absolute;
-	display: flex;
-	left: 10%;
+	display: flex block;
+	margin: 0 auto;
 	top: 20%;
+	left: 10%;
+	right:;
+
 }
 
 
@@ -144,21 +162,84 @@ span{
 
 
 .speed{
-	width: 154px;
+	width: 254px;
 	height: 56px;
 	left: 321px;
 	top: 755px;
 	margin-right: 60px;
 }
 
+.speed:after{
+	content: url(./img/speed.png);
+	position: relative;
+	top: -118px;
+	left: 20px;
+}
+
+
+.t1{
+	position: relative;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 43px;
+	bottom: 25px;
+}
+
+.t2{
+	position: relative;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	bottom: 60px;
+}
+
+.t3{
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+
+
 
 .road{
-	display: flex;
 	width: 140px;
 	height: 58px;
 	left: 500px;
 	top: 754px;
 }
+
+.road:after{
+	content: url(./img/road2.png);
+	position: relative;
+	bottom: 125px;
+	right: 20px;
+}
+
+.t4{
+	position: relative;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 43px;
+	bottom: 25px;
+}
+
+.t6{
+	position: relative;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	bottom: 60px;
+	right: 10px;
+}
+
+.t5{
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+
 
 
 .wheel{
@@ -176,8 +257,9 @@ span{
 	font-size: 15px;
 	line-height: 16px;
 	text-align: center;
-	text-transform: uppercase;	
-	width: 100px;
+	text-transform: uppercase;
+	display: inline;	
+	width:135px;
 	height: 18px;
 }
 
@@ -228,29 +310,6 @@ span{
 }
 
 
-.m:hover{
-	  text-decoration: underline;
-	  text-decoration-color:#E51937;
-	  color:#E51937;
-	  cursor: pointer;
-	}
-
-.a:hover{
-	  text-decoration: underline;
-	  text-decoration-color:#E51937;
-	  color:#E51937;
-	  cursor: pointer;
-}
-
-
-hr{
-	position: relative;
-	border: none; /* Убираем границу */
-    background-color: #E51937; /* Цвет линии */
-    height: 2px; /* Толщина линии */
-    top: 570px;
-}
-
 
 .front{
 	position: relative;
@@ -258,7 +317,7 @@ hr{
 	width: 670px;
 	height: 940px;
 	left: 1219px;
-	top: 544px;
+	top: 553px;
 }
 
 
@@ -307,18 +366,169 @@ h2{
 
 .display{
 	position: absolute;
-	top: 300px;
-	left: 60px;
+	top: 15px;
+	left: 0px;
 	width: 187px;
 	height: 65px;
 }
 
+.display:before{
+	content: url(./img/screen.png);
+	position: relative;
+	right: 15px;
+}
 
-.group{
+.display{
+	color: #fff;
+	position: relative;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 43px;
+	bottom: 950px;
+	left: 70px;
+}
+
+.t8{
+	color: #fff;
+	position: relative;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	bottom: 45px;
+	right: 150px;
+}
+
+.t7{
+	color: #fff;
+	position: relative;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+
+.wifi{
 	position: absolute;
-	top: 850px;
+	top: 15px;
+	left: 0px;
+	width: 50px;
+	height: 65px;
+}
+
+.wifi:before{
+	content: url(./img/wifi.png);
+	position: relative;
+	right: 15px;
+}
+
+.t9{
+	color: #fff;
+	font-family: Montserrat;
+	position: relative;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 43px;
+	bottom: 5px;
+	right: 90px;
+}
+
+.wifi{
+	color: #fff;
+	font-family: Montserrat;
+	position: relative;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 43px;
+	bottom: 1250px;
+	left: 84px;
+}
+
+.fiwi{
+	color: #fff;
+	position: relative;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	bottom:8px;
+	right: 165px;
+	 
+}
+
+.ifiw{
+	color: #fff;
+	position: relative;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	bottom:20px;
+	right: 145px;
+	
+}
+
+
+
+.bag{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 187px;
+	height: 65px;
+}
+
+.bag:before{
+	content: url(./img/bag2.png);
+	position: relative;
+	right: 15px;
+}
+
+.bag{
+	color: #fff;
+	position: relative;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 43px;
+	bottom: 980px;
+	left: 80px;
+}
+
+.v1{
+	color: #fff;
+	position: relative;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	bottom: 60px;
+	right: 109px;
+
+}
+
+.v2{
+	color: #fff;
+	position: relative;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+
+
+
+
+.more{
+	font-size: 18px;
+	color: #fff;
+	font-family: Montserrat;
+	position: absolute;
+	top: 835px;
 	left: 60px;
 	cursor: pointer;
+}
+
+
+.more:before{
+	content: url(./img/Group.png);
+	position: relative;
+	right: 15px;
 }
 
 
@@ -372,7 +582,7 @@ h3{
 	background-color: #E51937;
 	width: 670px;
 	height: 940px;
-	top: 497px;
+	top: 506px;
 	left: -10px;
 	color: white;
 	font-family: Montserrat;
@@ -576,6 +786,72 @@ h6{
 }
 
 
+.g15{
+	z-index: 1;
+	position: absolute;
+	left: 1034px;
+	top: 2126px;
+	width: 12px;
+}
+
+
+.g16{
+	z-index: 1;
+	position: absolute;
+	left: 761px;
+	top: 2225px;
+	width: 11px;
+}
+
+.g17{
+	z-index: 1;
+	position: absolute;
+	left: 1088px;
+	top: 2536px;
+	width: 12px;
+}
+
+.def{
+	position: absolute;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 15px;
+	color: #000000;
+	left: 1050px;
+	top: 2105px;
+	width: 200px;
+	z-index: 1;
+}
+
+
+.def2{
+	position: absolute;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 15px;
+	color: #000000;
+	left: 770px;
+	top: 2205px;
+	width: 200px;
+	z-index: 1;
+}
+
+.def3{
+	position: absolute;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 15px;
+	color: #000000;
+	left: 1099px;
+	top: 2588px;
+	width: 250px;
+	z-index: 1;
+}
+
+
 
 
 
@@ -634,7 +910,7 @@ h3{
 .a2013{
    	width:858px;	 
    	height:550px;
-   	top: 981px;
+   	top: 985px;
    }
 
 .front{
@@ -642,6 +918,32 @@ h3{
    	width: 500px;
    	height: 800px;
    }
+
+.t8{
+	right: 90px;
+	bottom: 30px;
+}   
+
+.t9{
+	right: 110px;
+}
+
+.wifi{
+	left:65px;
+}
+
+.fiwi{
+	right: 100px;
+}
+
+.ifiw{
+	right: 80px;
+}
+
+.v1{
+	right: 40px;
+	bottom: 45px;
+}
 
 .display{
    	width: 150px;
@@ -778,19 +1080,52 @@ h6{
 }
 
 
+.g15{
+	top: 1725px;
+	left: 840px;
+	width: 10px;
+}
+
+.g16{
+	top: 1783px;
+	left: 614px;
+	width: 10px;
+}
+
+.g17{
+	top: 2055px;
+	left: 885px;
+	width: 10px;
+}
+
+
+.def{
+	top: 1710px;
+	left: 850px;
+}
+
+.def2{
+	top: 1765px;
+	left: 624px;
+}
+
+.def3{
+	top: 2093px;
+	left: 895px;
+}
 
 
 @media screen and (max-width: 1000px){
-	 .car{ 
+.car{ 
   	width: 900px;
-  	height: 400px;
-  	top: 120px;
-  	left: 50px;
+  	height: 360px;
+  	top: 90px;
+  	left: 40px;
   } 
 
 h1{
   	margin-top: -45px;
-  	font-size: 60px;
+  	font-size: 50px;
   }
 
 p{
@@ -803,11 +1138,17 @@ p{
   }
 
 .a{
+	font-size: 12px;
   	margin-top: 17px;
   }
 
+.tx2{
+	margin-top: 0px;
+	font-size: 12px;
+}
+
 .menu{
-  	font-size: 15px;
+  	font-size: 13px;
   	margin-top: -10px;
   }
 
@@ -817,6 +1158,129 @@ p{
   	margin-left: 25px;
   	margin-top: -10px;
   }
+
+.speed{
+	width: 254px;
+	height: 56px;
+	left: 321px;
+	top: 755px;
+	margin-right: 60px;
+}
+
+.speed:after{
+	content: url(./img/speed.png);
+	width: 10px;
+	position: absolute;
+	bottom: 22px;
+	left: 60px;
+	width: 65.92px;
+	height: 50.16px;
+
+}
+
+
+.t1{
+	position: relative;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 43px;
+	bottom: 125px;
+}
+
+.t2{
+	position: relative;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	bottom: 155px;
+	left: 10px;
+}
+
+.t3{
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+
+
+
+.road{
+	width: 140px;
+	height: 58px;
+	left: 500px;
+	top: 754px;
+}
+
+.road:after{
+	content: url(./img/road2.png);
+	position: relative;
+	bottom: 125px;
+	right: 20px;
+	width: 0px;
+}
+
+.t4{
+	position: relative;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 43px;
+	bottom: 25px;
+}
+
+.t6{
+	position: relative;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	bottom: 60px;
+	right: 10px;
+}
+
+.t5{
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+
+
+
+.wheel{
+	margin-top: 8px;
+	display: flex;
+	left: -10px;
+}
+
+
+.tx{
+	color: #E51937;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	display: inline;	
+	width:135px;
+	height: 18px;
+}
+
+
+  .tx:before {
+    vertical-align: middle;
+    font-style: normal;
+    }
+  .tx:before {
+    content: url(./img/steering-wheel.png);
+    margin-right: 12px;
+    }
+
+
+
+
+
 
 .menu-icon{
 	width: 20px;
@@ -830,9 +1294,6 @@ footer{
    	left: 650px;
    }
 
-.tx{
-	font-size: 13px;
-}   
 
 .speed-icon{
 	height: 40px;
@@ -851,6 +1312,10 @@ footer{
 	width: 30px;
 }
 
+.b{
+	display: block;
+	justify-content: space-between;
+}
 
 
 h2{
