@@ -1491,4 +1491,65 @@ h6{
 	width: 150px;
 	left: 30px;
 }
+
+.speed{
+	position: relative;
+	display: block;
+	left: 230px;
+	top: 00px;
+}
+
+.speed:after{
+	left: -20px;
+	top: -90px;
+}
+
+
+
+.road:after{
+	bottom: 210px;
+	left: 305px;
+}
+
+.t4{
+	left: 340px;
+	bottom: 125px;
+	font-size: 25px;
+}
+
+.t5{
+	font-size:	14px; 
+}
+
+
+.t6{
+	left: 343px;
+	bottom: 156px;
+}
+
+
+.tx:before {
+    content: url(./img/steering-wheel.png);
+    margin-right: 12px;
+}
+
+.tx{
+	position: relative;
+	right: 220px;
+	font-size: 14px;
+	bottom: 20px;
+}
+
+.wheel{
+	width: 260px;
+}
+
+.bord{
+	position: relative;
+	bottom: 25px;
+	left: -140px;
+}
+
+
+
 @media screen and (max-width: 640px){
