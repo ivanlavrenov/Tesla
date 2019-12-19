@@ -3,6 +3,7 @@
 	src:url(./Montserrat-Medium.ttf);
 }
 
+
 *{
 	font-style: normal;
 	font-weight: 600;
@@ -38,7 +39,7 @@
 	content: url(./img/vec.png);
 	position: absolute;
 	top: 6px;
-	}
+}
 
 
 .logo{
@@ -120,9 +121,8 @@ p {
 	display: flex block;
 	margin: 0 auto;
 	top: 20%;
-	left: 10%;
-	right:;
-
+	left: 12%;
+	right: ;
 }
 
 
@@ -140,14 +140,10 @@ footer{
 }
 
 
+
 .b {
 	margin-right: 120px;
 	margin-left: 20px;
-}
-
-
-.speed-icon{
-
 }
 
 
@@ -169,6 +165,7 @@ span{
 	margin-right: 60px;
 }
 
+
 .speed:after{
 	content: url(./img/speed.png);
 	position: relative;
@@ -185,6 +182,7 @@ span{
 	bottom: 25px;
 }
 
+
 .t2{
 	position: relative;
 	font-weight: normal;
@@ -192,6 +190,7 @@ span{
 	line-height: 14px;
 	bottom: 60px;
 }
+
 
 .t3{
 	font-weight: 600;
@@ -209,12 +208,14 @@ span{
 	top: 754px;
 }
 
+
 .road:after{
 	content: url(./img/road2.png);
 	position: relative;
 	bottom: 125px;
 	right: 20px;
 }
+
 
 .t4{
 	position: relative;
@@ -224,6 +225,7 @@ span{
 	bottom: 25px;
 }
 
+
 .t6{
 	position: relative;
 	font-weight: normal;
@@ -232,6 +234,7 @@ span{
 	bottom: 60px;
 	right: 10px;
 }
+
 
 .t5{
 	font-weight: 600;
@@ -264,14 +267,16 @@ span{
 }
 
 
-  .tx:before {
+ .tx:before {
     vertical-align: middle;
     font-style: normal;
-    }
-  .tx:before {
+ }
+
+
+.tx:before {
     content: url(./img/steering-wheel.png);
     margin-right: 12px;
-    }
+}
 
 
 
@@ -372,11 +377,13 @@ h2{
 	height: 65px;
 }
 
+
 .display:before{
 	content: url(./img/screen.png);
 	position: relative;
 	right: 15px;
 }
+
 
 .display{
 	color: #fff;
@@ -388,6 +395,7 @@ h2{
 	left: 70px;
 }
 
+
 .t8{
 	color: #fff;
 	position: relative;
@@ -397,6 +405,7 @@ h2{
 	bottom: 45px;
 	right: 150px;
 }
+
 
 .t7{
 	color: #fff;
@@ -415,11 +424,13 @@ h2{
 	height: 65px;
 }
 
+
 .wifi:before{
 	content: url(./img/wifi.png);
 	position: relative;
 	right: 15px;
 }
+
 
 .t9{
 	color: #fff;
@@ -432,6 +443,7 @@ h2{
 	right: 90px;
 }
 
+
 .wifi{
 	color: #fff;
 	font-family: Montserrat;
@@ -443,6 +455,7 @@ h2{
 	left: 84px;
 }
 
+
 .fiwi{
 	color: #fff;
 	position: relative;
@@ -453,6 +466,7 @@ h2{
 	right: 165px;
 	 
 }
+
 
 .ifiw{
 	color: #fff;
@@ -475,11 +489,13 @@ h2{
 	height: 65px;
 }
 
+
 .bag:before{
 	content: url(./img/bag2.png);
 	position: relative;
 	right: 15px;
 }
+
 
 .bag{
 	color: #fff;
@@ -491,6 +507,7 @@ h2{
 	left: 80px;
 }
 
+
 .v1{
 	color: #fff;
 	position: relative;
@@ -501,6 +518,7 @@ h2{
 	right: 109px;
 
 }
+
 
 .v2{
 	color: #fff;
@@ -856,49 +874,55 @@ h6{
 
 
 @media screen and (max-width: 1366px){
-  .car{ 
+.car{ 
   	width: 1150px;
   	height: 480px;
   	top: 120px;
   	left: 100px;
-  } 
+ } 
+
 
 h1{
   	margin-top: -45px;
   	font-size: 75px;
-  }
+}
 
 p{
   	font-size: 15px;
-  }
+}
+
 
 .m{
   	font-size: 15px;
   	margin-top: 5px;
-  }
+}
+
 
 .a{
   	margin-top: 17px;
-  }
+}
+
 
 .menu{
   	font-size: 15px;
   	margin-top: -10px;
-  }
+}
+
 
 .logo{
   	margin-left: 25px;
   	margin-top: -15px;
-  }
+}
+
 
 footer{
    	margin-top: -115px;
-   }
+}
+
 
 .wh{
    	left: 650px;
-   }
-
+}
 
 
 
@@ -907,56 +931,73 @@ h3{
 	top: 820px;
 }
 
+
 .a2013{
    	width:858px;	 
    	height:550px;
    	top: 985px;
-   }
+}
 
 .front{
 	left: 850px;
    	width: 500px;
    	height: 800px;
-   }
+}
+
 
 .t8{
 	right: 90px;
 	bottom: 30px;
 }   
 
+
 .t9{
 	right: 110px;
 }
+
 
 .wifi{
 	left:65px;
 }
 
+
 .fiwi{
 	right: 100px;
 }
 
+
 .ifiw{
 	right: 80px;
 }
+
 
 .v1{
 	right: 40px;
 	bottom: 45px;
 }
 
+
 .display{
    	width: 150px;
    	height:50px;
    	margin-top: 50px; 
-   }
+}
+
+
+.display:before{
+	content: '';
+	background-image: url();
+	width: 10px;
+}   
+
 
 .wifi{
    	width: 200px;
    	height:60px;
    	margin-top: 30px;
-	}
-   	
+}
+  
+
 .bag{
    	width: 150px;
    	height:50px;
@@ -964,9 +1005,11 @@ h3{
 
 }
 
+
 .group{
 	top: 730px;
 }
+
 
 .bord2{
 	top: 705px;
@@ -981,21 +1024,26 @@ h3{
    	height: 820px;
 }
 
+
 h4{
 	font-size: 35.5px;
 }
+
 
 .text3{
 	font-size: 15px;
 }
 
+
 h5{
 	font-size: 32px;
 }
 
+
 a{
 	font-size: 17px;
 }
+
 
 .shield{
 	width:40px; 
@@ -1003,6 +1051,7 @@ a{
 	top: 680px;
 	left: 90px;
 }
+
 
 h6{
 	font-size: 30px;
@@ -1016,9 +1065,11 @@ h6{
 	bottom: 70px;
 }
 
+
 .m{
 	display: none;
 }
+
 
 .star1{
 	margin-left: 6px;
@@ -1055,10 +1106,12 @@ h6{
 	bottom: 5px;
 }
 
+
 .bord3{
 	top: 750px;
 	left: 290px;
 }
+
 
 .car2{
 	width: 850px;
@@ -1067,12 +1120,14 @@ h6{
   	left: 400px;
 }
 
+
 .models{
 	left: 500px;
 	top: 1680px;
 	width: 751px;
 	height: 150px;
 }
+
 
 .group2{
 	top: 775px;
@@ -1086,11 +1141,13 @@ h6{
 	width: 10px;
 }
 
+
 .g16{
 	top: 1783px;
 	left: 614px;
 	width: 10px;
 }
+
 
 .g17{
 	top: 2055px;
@@ -1104,10 +1161,12 @@ h6{
 	left: 850px;
 }
 
+
 .def2{
 	top: 1765px;
 	left: 624px;
 }
+
 
 .def3{
 	top: 2093px;
@@ -1115,49 +1174,60 @@ h6{
 }
 
 
+
+
 @media screen and (max-width: 1000px){
 .car{ 
   	width: 900px;
   	height: 360px;
   	top: 90px;
-  	left: 40px;
-  } 
+  	left: 60px;
+} 
+
 
 h1{
   	margin-top: -45px;
   	font-size: 50px;
-  }
+}
+
 
 p{
   	font-size: 14px;
-  }
+}
+
 
 .m{
   	font-size: 15px;
   	margin-top: 5px;
-  }
+}
+
 
 .a{
 	font-size: 12px;
   	margin-top: 17px;
-  }
+}
+
 
 .tx2{
 	margin-top: 0px;
 	font-size: 12px;
 }
 
+
 .menu{
   	font-size: 13px;
   	margin-top: -10px;
-  }
+  	margin-right: 0;
+}
+
 
 .logo{
 	width: 120px;
 	height: 40px;
   	margin-left: 25px;
   	margin-top: -10px;
-  }
+}
+
 
 .speed{
 	width: 254px;
@@ -1167,6 +1237,7 @@ p{
 	margin-right: 60px;
 }
 
+
 .speed:after{
 	content: url(./img/speed.png);
 	width: 10px;
@@ -1175,8 +1246,8 @@ p{
 	left: 60px;
 	width: 65.92px;
 	height: 50.16px;
-
 }
+
 
 
 .t1{
@@ -1187,6 +1258,7 @@ p{
 	bottom: 125px;
 }
 
+
 .t2{
 	position: relative;
 	font-weight: normal;
@@ -1196,6 +1268,7 @@ p{
 	left: 10px;
 }
 
+
 .t3{
 	font-weight: 600;
 	font-size: 14px;
@@ -1204,21 +1277,22 @@ p{
 
 
 
-
 .road{
 	width: 140px;
 	height: 58px;
-	left: 500px;
+	left: 550px;
 	top: 754px;
 }
+
 
 .road:after{
 	content: url(./img/road2.png);
 	position: relative;
 	bottom: 125px;
-	right: 20px;
+	right: 0px;
 	width: 0px;
 }
+
 
 .t4{
 	position: relative;
@@ -1228,6 +1302,7 @@ p{
 	bottom: 25px;
 }
 
+
 .t6{
 	position: relative;
 	font-weight: normal;
@@ -1236,6 +1311,7 @@ p{
 	bottom: 60px;
 	right: 10px;
 }
+
 
 .t5{
 	font-weight: 600;
@@ -1249,7 +1325,7 @@ p{
 .wheel{
 	margin-top: 8px;
 	display: flex;
-	left: -10px;
+
 }
 
 
@@ -1268,31 +1344,35 @@ p{
 }
 
 
-  .tx:before {
+.tx:before {
     vertical-align: middle;
     font-style: normal;
-    }
-  .tx:before {
+}
+
+
+.tx:before {
     content: url(./img/steering-wheel.png);
     margin-right: 12px;
-    }
+}
 
 
-
-
+.vector{
+	top: 50px;
+}
 
 
 .menu-icon{
 	width: 20px;
 }
 
+
 footer{
    	margin-top: -115px;
-   }
+}
 
 .wh{
    	left: 650px;
-   }
+}
 
 
 .speed-icon{
@@ -1310,7 +1390,9 @@ footer{
 
 .vector{
 	width: 30px;
+	display: none;
 }
+
 
 .b{
 	display: block;
@@ -1319,55 +1401,72 @@ footer{
 
 
 h2{
-	font-size:22px;	
+	font-size:20px;	
 }
 
+
 h3{
-	top: 750px;
+	top: 720px;
 	font-size: 50px;
 }
 
+
 .text2{
 	font-size: 12px;
+	width: 250px;
+	margin-left: -10px;
 }
 
+
 .a2013{
-   	width:602px;	 
-   	height:440px;
-   	top: 982px;
-   }
+   	width:664px;	 
+   	height:450px;
+   	top: 881px;
+}
+
 
 .front{
-	top: 550px;
-	left: 594px;
-   	width: 350px;
-   	height: 700px;
-   }
+	top: 520px;
+	left: 656px;
+   	width: 320px;
+   	height: 660px;
+}
+
 
 .display{
-   	width: 95px;
+   	width: 55px;
    	height:35px;
    	margin-top: 100px; 
-   }
+}
+
+
+.dispaly:before{
+	content:'';
+	background-image: url(./img/screen.png);
+	position: absolute;
+}
+
+
 
 .wifi{
    	width: 135px;
    	height:35px;
    	margin-top: 40px; 
-	}
+}
    	
 .bag{
    	width: 100px;
    	height:35px;
-   	margin-top: -18px;
-
+   	margin-top: -38px;
 }
+
 
 .group{
 	left: 30px;
 	top: 630px;
 	width: 120px;
 }
+
 
 .bord2{
 	top: 605px;
@@ -1386,13 +1485,16 @@ h3{
    	top: 520px;
 }
 
+
 h4{
 	font-size: 22px;
 }
 
+
 .text3{
 	font-size: 12px;
 }
+
 
 h5{
 	font-size: 22px;
@@ -1405,6 +1507,7 @@ a{
 	font-size: 13px;
 }
 
+
 .shield{
 	display: none;
 	width:30px; 
@@ -1412,6 +1515,7 @@ a{
 	top: 598px;
 	left: 100px;
 }
+
 
 h6{
 	display: none;
@@ -1427,9 +1531,11 @@ h6{
 	bottom: 46px;
 }
 
+
 .m{
 	display: none;
 }
+
 
 .star1{
 	margin-left: 6px;
@@ -1466,11 +1572,13 @@ h6{
 	bottom: 5px;
 }
 
+
 .bord3{
 	top: 612px;
 	left: 190px;
 	width: 140px;
 }
+
 
 .car2{
 	width: 650px;
@@ -1479,6 +1587,7 @@ h6{
   	left: 280px;
 }
 
+
 .models{
 	left: 400px;
 	top: 1580px;
@@ -1486,11 +1595,13 @@ h6{
 	height: 100px;
 }
 
+
 .group2{
 	top: 635px;
 	width: 150px;
 	left: 30px;
 }
+
 
 .speed{
 	position: relative;
@@ -1499,11 +1610,11 @@ h6{
 	top: 00px;
 }
 
+
 .speed:after{
 	left: -20px;
 	top: -90px;
 }
-
 
 
 .road:after{
@@ -1511,11 +1622,13 @@ h6{
 	left: 305px;
 }
 
+
 .t4{
 	left: 340px;
 	bottom: 125px;
 	font-size: 25px;
 }
+
 
 .t5{
 	font-size:	14px; 
@@ -1533,6 +1646,7 @@ h6{
     margin-right: 12px;
 }
 
+
 .tx{
 	position: relative;
 	right: 220px;
@@ -1540,9 +1654,11 @@ h6{
 	bottom: 20px;
 }
 
+
 .wheel{
 	width: 260px;
 }
+
 
 .bord{
 	position: relative;
