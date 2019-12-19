@@ -985,9 +985,8 @@ h3{
 
 
 .display:before{
-	content: '';
-	background-image: url();
 	width: 10px;
+	margin-right: 20px;
 }   
 
 
