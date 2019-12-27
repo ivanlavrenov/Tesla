@@ -112,7 +112,6 @@ p {
 	font-weight: 500;
 	font-size: 15px;
 	line-height: 18px;
-	margin-top:;
 }
 
 
@@ -122,7 +121,6 @@ p {
 	margin: 0 auto;
 	top: 20%;
 	left: 12%;
-	right: ;
 }
 
 
@@ -130,7 +128,6 @@ footer{
 	top: 500px;
 	position: relative;
 	display: flex;
-	align-items:justify;
 	justify-content: center;
 	font-family: Montserrat;
 	font-style: normal;
@@ -869,8 +866,9 @@ h6{
 	z-index: 1;
 }
 
-
-
+.img1, .img2, .img3, .img4 {
+	display: none;
+}
 
 
 @media screen and (max-width: 1366px){
@@ -989,6 +987,19 @@ h3{
 	margin-right: 20px;
 }   
 
+
+.more{
+top: 710px;	
+left: 35px;
+}
+
+
+
+.more:before{
+	content: url(./img/Group.png);
+	position: relative;
+	left: -6px;
+}
 
 .wifi{
    	width: 200px;
@@ -1279,8 +1290,6 @@ p{
 .road{
 	width: 140px;
 	height: 58px;
-	left: 550px;
-	top: 754px;
 }
 
 
@@ -1288,9 +1297,8 @@ p{
 	content: url(./img/road2.png);
 	position: relative;
 	bottom: 125px;
-	right: 0px;
-	width: 0px;
 }
+
 
 
 .t4{
@@ -1432,31 +1440,32 @@ h3{
 }
 
 
-.display{
-   	width: 55px;
-   	height:35px;
-   	margin-top: 100px; 
+.t7, .t8, .t9, .fiwi, .ifiw, .bag, .wifi, .display, .v1{
+	display: none;
 }
 
-
-.dispaly:before{
-	content:'';
-	background-image: url(./img/screen.png);
-	position: absolute;
+.img1{
+	display: block;
+	position: relative;
+	width: 150px;
+	left: 45px;
+	margin-top: 10px;
 }
 
-
-
-.wifi{
-   	width: 135px;
-   	height:35px;
-   	margin-top: 40px; 
+.img2{
+	position: relative;
+	display: block;
+	width: 200px;
+	left: 43px;
+	margin-top: 15px;
 }
-   	
-.bag{
-   	width: 100px;
-   	height:35px;
-   	margin-top: -38px;
+
+.img3{
+	position: relative;
+	display: block;
+	width: 150px;
+	left: 45px;
+	margin-top: 5px;
 }
 
 
@@ -1475,13 +1484,28 @@ h3{
 	font-size: 12px;
 }
 
+.more{
+	display: none;
+}
 
+.img4{
+	display: block;
+	position: absolute;
+	top: 620px;
+	left: 20px;
+	width: 150px;
+	cursor: pointer;
+}
 
+.bord2{
+	left: 170px;
+	top: 600px;
+}
 
 .front2{
 	width: 350px;
    	height: 700px;
-   	top: 520px;
+   	top: 491px;
 }
 
 
@@ -1665,6 +1689,348 @@ h6{
 	left: -140px;
 }
 
+.g15{
+	top: 1630px;
+	left: 616px;
+	width: 8px;
+}
 
 
-@media screen and (max-width: 640px){
+.g16{
+	top: 1670px;
+	left: 444px;
+	width: 8px;
+}
+
+
+.g17{
+	top: 1885px;
+	left: 651px;
+	width: 8px;
+}
+
+.def{
+	top: 1615px;
+	left: 630px;
+	font-size: 14px;
+	width: 100px;
+}
+
+
+.def2{
+	top: 1655px;
+	left: 454px;
+	font-size: 14px;
+	width: 120px;
+}
+
+
+.def3{
+	top: 1910px;
+	left: 665px;
+	font-size: 14px;
+	width: 200px;
+}
+
+
+@media screen and (max-width: 640px) {
+.car{ 
+  	width: 450px;
+  	height: 220px;
+  	top: 120px;
+  	left: 30px;
+} 
+
+
+h1{
+  	margin-top: -45px;
+  	font-size: 50px;
+  	margin-left: 30px;
+}
+
+
+p{
+  	font-size: 14px;}
+
+.logo{
+	width: 0px;                      
+}
+
+
+.m{
+  	font-size: 15px;
+  	margin-top: 5px;
+}
+
+
+.a{
+	font-size: 12px;
+  	margin-top: 17px;
+}
+
+
+.tx2{
+	margin-top: 0px;
+	font-size: 12px;
+}
+
+
+.a{
+  	font-size: 13px;
+  	margin-top: -10px;
+  	margin-right: 0;
+  	display: none;
+}
+
+.menu-icon{
+	display: block;
+	margin-top: 15px;
+	margin-right: 30px;
+	cursor: pointer;
+}
+
+
+.logo{
+	width: 120px;
+	height: 40px;
+  	margin-left: 25px;
+  	margin-top: -10px;
+}
+
+
+
+.speed:after{
+	display: none;
+}
+
+
+
+.t1, .t2, .t3, .t4, .t5, .t6{
+	display: none;
+}
+
+.road:after{
+	display: none;
+}
+
+.wheel{
+	margin-top: 8px;
+	display: flex;
+}
+
+.tx{
+	display: none;
+}
+
+.menu-icon{
+	width: 20px;
+}
+
+
+footer{
+	position: relative;
+	top: 350px;
+}
+
+.wh{
+   	left: 650px;
+}
+
+
+.speed-icon{
+	height: 40px;
+	width: 100px;
+	margin-left: 60px;
+	margin-top: 5px;
+}
+
+.road-icon{
+	height: 40px;
+	width: 100px;
+	margin-top: 5px;
+}
+
+.testdrive{
+	position: relative;
+	right: 150px;
+	bottom: 30px;
+}
+
+.board{
+	position: absolute;
+	left: 420px;
+	bottom: 0px;
+}
+
+
+.b{
+	display: block;
+	justify-content: space-between;
+}
+
+
+h2{
+	font-size:30px;	
+}
+
+
+h3{
+	display: none;
+}
+
+
+.text2{
+	font-size: 18px;
+	width: 300px;
+	margin-left: 40px;
+
+}
+
+
+.a2013{
+   	width:503px;	 
+   	height:350px;
+   	top: 415px;
+}
+
+.front{
+	top: 623px;
+	left: -10px;
+   	width: 505px;
+   	height: 400px;
+}
+
+
+.t7, .t8, .t9, .fiwi, .ifiw, .bag, .wifi, .display, .v1{
+	display: none;
+}
+
+.img1, .img2, .img3{
+	display: none;
+}
+
+
+.group{
+	left: 30px;
+	top: 630px;
+	width: 120px;
+}
+
+
+.bord2{
+	top: 605px;
+	left: 150px;
+	width: 120px;
+	height: 40px;
+	font-size: 12px;
+}
+
+.more{
+	display: none;
+}
+
+.img4{
+	display: block;
+	position: absolute;
+	top: 620px;
+	left: 20px;
+	width: 150px;
+	cursor: pointer;
+}
+
+.bord2{
+	display: none;
+}
+
+.front2{
+	width: 505px;
+   	height: 400px;
+   	top: 991px;
+}
+
+
+h4{
+	font-size: 30px;
+}
+
+
+.text3{
+	font-size: 18px;
+	width: 300px;
+}
+
+h5, h6, a, .save, .m, .star1, .bord3, .driver, .pas, .shield{
+	display: none;
+}
+
+
+.car2{
+	width: 450px;
+  	height: 230px;
+  	top: 1270px;
+  	left: 10px;
+}
+
+
+.models{
+	left: 5px;
+	top: 1250px;
+	width: 421px;
+	height: 100px;
+}
+
+
+.group2{
+	width: 100px;
+}
+
+
+.bord{
+	display: block;
+}
+
+.g15{
+	top: 1260px;
+	left: 243px;
+	width: 5px;
+}
+
+
+.g16{
+	top: 1290px;
+	left: 124px;
+	width: 5px;
+}
+
+
+.g17{
+	top: 1426px;
+	left: 267px;
+	width: 5px;
+}
+
+.def{
+	top: 1250px;
+	left: 250px;
+	font-size: 8px;
+	width: 60px;
+	line-height: 8px;
+}
+
+
+.def2{
+	top: 1280px;
+	left: 130px;
+	font-size: 8px;
+	width: 80px;
+	line-height: 8px;
+}
+
+
+.def3{
+	top: 1450px;
+	left: 273px;
+	font-size: 8px;
+	width: 90px;
+	line-height: 8px;
+}
