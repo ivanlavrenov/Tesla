@@ -123,6 +123,9 @@ p {
 	left: 12%;
 }
 
+.testdrive{
+	display: none;
+}
 
 footer{
 	top: 500px;
